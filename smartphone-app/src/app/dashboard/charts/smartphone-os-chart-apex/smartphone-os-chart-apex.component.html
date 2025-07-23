@@ -1,0 +1,12 @@
+<p>smartphone-os-chart-apex works!</p>
+<h3>Smartphones par marque (Apex)</h3>
+<div *ngIf="chartOptions">
+  <apx-chart
+    [series]="chartOptions.series"
+    [chart]="chartOptions.chart"
+    [labels]="chartOptions.labels"
+    [responsive]="chartOptions.responsive"
+    [legend]="chartOptions.legend"
+    [dataLabels]="chartOptions.dataLabels">
+  </apx-chart>
+</div>

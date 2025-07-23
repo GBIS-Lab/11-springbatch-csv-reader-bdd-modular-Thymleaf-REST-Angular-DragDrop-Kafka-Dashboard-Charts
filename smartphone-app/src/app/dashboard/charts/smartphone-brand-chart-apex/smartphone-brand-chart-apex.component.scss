@@ -1,0 +1,23 @@
+:host {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  margin: auto;
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  height: 400px;
+  margin: auto;
+}
+
+.dashboard-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}

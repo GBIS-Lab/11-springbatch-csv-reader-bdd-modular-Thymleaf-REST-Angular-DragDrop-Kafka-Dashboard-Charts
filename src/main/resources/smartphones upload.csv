@@ -1,0 +1,26 @@
+marque;modele;os;annee;tailleEcran;prix
+Apple;iPhone 17;iOS 26;2025;6.1;999
+Apple;iPhone 17 Pro;iOS 26;2025;6.1;1299
+Apple;iPhone 17 Pro Max;iOS 26;2025;6.1;1399
+Apple;iPhone 16;iOS 18;2024;6.1;799
+Apple;iPhone 16 Max;iOS 18;2024;6.7;899
+Apple;iPhone 16 Pro;iOS 18;2024;6.1;1099
+Apple;iPhone 16 Pro Max;iOS 18;2024;6.7;1199
+Apple;iPhone 15;iOS 17;2023;6.1;699
+Apple;iPhone 15 Max;iOS 17;2023;6.7;799
+Apple;iPhone 15 Pro;iOS 17;2023;6.1;999
+Apple;iPhone 15 Pro Max;iOS 17;2023;6.7;1099
+Apple;iPhone SE;iOS 17;2023;4.7;799
+Samsung;Galaxy Fold;Android;2024;6.8;1299
+Samsung;Galaxy Z-Fold;Android;2024;6.8;1599
+Samsung;Galaxy S24;Android;2024;6.8;999
+Google;Pixel 9;Android;2024;6.2;899
+Xiaomi;Mi 14;Android;2023;6.5;699
+Huawei;P60;Android;2022;6.6;649
+Oppo;Hop2;Android;2025;7;549
+Oppo;Hop1;Android;2024;7;299
+Redmi;Redmi Note10;Android;2023;4.8;299
+Redmi;Redmi Note9;Android;2022;4.6;249
+Redmi;Redmi Note8;Android;2021;4.5;239
+Redmi;Redmi Note7;Android;2020;4.5;219
+Redmi;Redmi Note6;Android;2019;4.5;199

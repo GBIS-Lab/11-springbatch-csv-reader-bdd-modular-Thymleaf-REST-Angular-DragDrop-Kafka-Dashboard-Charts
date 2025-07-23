@@ -1,0 +1,76 @@
+<p>smartphone-brand-chart-apex works!</p>
+<h3>Smartphones par marque (Apex)</h3>
+
+<!--<apx-chart
+  [series]="chartOptions.series"
+  [chart]="chartOptions.chart"
+  [labels]="chartOptions.labels"
+  [responsive]="chartOptions.responsive"
+  [legend]="chartOptions.legend"
+  [dataLabels]="chartOptions.dataLabels">
+</apx-chart>
+-->
+
+<div *ngIf="chartOptions">
+  <apx-chart
+    [series]="chartOptions.series"
+    [chart]="chartOptions.chart"
+    [labels]="chartOptions.labels"
+    [responsive]="chartOptions.responsive"
+    [legend]="chartOptions.legend"
+    [dataLabels]="chartOptions.dataLabels">
+  </apx-chart>
+</div>
+
+
+
+<!--<h3>Nombre de smartphones par marque</h3>
+
+<pre>{{ chartData | json }}</pre>
+
+<div class="chart-container"  style="border: 1px solid red;">
+  <ngx-charts-pie-chart
+
+    [view]="[800,400]"
+    [results]="[
+      { 'name': 'Apple', 'value': 5 },
+      { 'name': 'Samsung', 'value': 3 },
+      { 'name': 'Xiaomi', 'value': 2 }
+    ]"
+    [scheme]="colorScheme"
+    [animations]="true"
+    [legend]="true"
+    [labels]="true"
+    [doughnut]="false"
+    [gradient]="false">
+  </ngx-charts-pie-chart>
+</div>
+-->
+
+
+<!-- *ngIf="chartData.length > 0"-->
+<!--[view]="[400, 400]"-->
+<!--[results]="chartData"-->
+<!--[scheme]="'vivid'"-->
+<!--<ngx-charts-pie-chart
+  [results]="chartData"
+  [view]="view"
+  [legend]="showLegend"
+  [labels]="showLabels"
+  [doughnut]="isDoughnut"
+  [scheme]="'vivid'"
+>
+</ngx-charts-pie-chart>
+-->
+<!--
+<ngx-charts-advanced-pie-chart
+  [results]="chartData"
+  [scheme]="'vivid'"
+  [animations]="true"
+  [gradient]="true"
+  [labels]="true"
+  [doughnut]="false"
+  [legend]="true">
+</ngx-charts-advanced-pie-chart>
+-->
+

@@ -1,0 +1,11 @@
+<div class="data-preview">
+  <h3>Répartition par année de sortie</h3>
+  <ul>
+    <!--<ul *ngIf="brandStats">-->
+    <li *ngFor="let year of years">
+      {{ year }} : {{ yearStats[year] }}
+    </li>
+  </ul>
+
+  <!--<div *ngIf="!brandStats">Chargement en cours...</div>-->
+</div>

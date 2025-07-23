@@ -1,0 +1,18 @@
+<h3>Répartition par année de sortie</h3>
+
+<p>smartphone-releasedate-chart-apex works!</p>
+<div *ngIf="chartOptions">
+  <apx-chart
+    [series]="chartOptions.series"
+    [chart]="chartOptions.chart"
+    [xaxis]="chartOptions.xaxis"
+    [yaxis]="chartOptions.yaxis"
+    [dataLabels]="chartOptions.dataLabels"
+    [plotOptions]="chartOptions.plotOptions"
+    [legend]="chartOptions.legend"
+    [responsive]="chartOptions.responsive"
+    [title]="chartOptions.title">
+  </apx-chart>
+</div>
+
+

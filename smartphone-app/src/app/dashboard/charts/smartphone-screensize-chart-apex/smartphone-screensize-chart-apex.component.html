@@ -1,0 +1,18 @@
+<h3>Répartition par taille d’écran</h3>
+
+<p>smartphone-screensize-chart-apex works!</p>
+
+<div *ngIf="chartOptions">
+  <apx-chart
+    [series]="chartOptions.series"
+    [chart]="chartOptions.chart"
+    [xaxis]="chartOptions.xaxis"
+    [yaxis]="chartOptions.yaxis"
+    [dataLabels]="chartOptions.dataLabels"
+    [plotOptions]="chartOptions.plotOptions"
+    [legend]="chartOptions.legend"
+    [responsive]="chartOptions.responsive"
+    [title]="chartOptions.title">
+  </apx-chart>
+</div>
+
