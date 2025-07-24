@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
     @RestController
     @RequestMapping("/api/stats")
-    @CrossOrigin(origins = "*") // pour autoriser Angular à appeler l'API
+    @CrossOrigin(origins = "*") 
     // regarder spring security
     public class SmartphoneStatsController {
 
