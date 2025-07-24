@@ -22,18 +22,6 @@ public class KafkaConsumerConfig {
 
     @Bean
     public ConsumerFactory<String, Smartphone> consumerFactory() {
-        /*JsonDeserializer<Smartphone> deserializer = new JsonDeserializer<>(Smartphone.class);
-        deserializer.setRemoveTypeHeaders(false);
-        deserializer.setUseTypeMapperForKey(true);
-        deserializer.addTrustedPackages("com.nemezyx.smartphonebatch.model");
-
-        Map<String, Object> props = new HashMap<>();
-        props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
-        props.put(ConsumerConfig.GROUP_ID_CONFIG, "smartphone-consumer-group");
-        props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest");
-        props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
-        props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, deserializer  );
-        */
 
         Map<String, Object> props = new HashMap<>();
         props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
@@ -41,12 +29,10 @@ public class KafkaConsumerConfig {
         props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest");
         props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
         props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, JsonDeserializer.class);
-        props.put(JsonDeserializer.TRUSTED_PACKAGES, "*"); // ou mieux : "com.nemezyx.smartphonebatch.model"
+        props.put(JsonDeserializer.TRUSTED_PACKAGES, "*"); 
         props.put(ConsumerConfig.SESSION_TIMEOUT_MS_CONFIG, 6000);
         props.put(ConsumerConfig.HEARTBEAT_INTERVAL_MS_CONFIG, 2000);
-        //props.put(ConsumerConfig.LISTENER_MISSING_TOPICS_FATAL, false);
-
-        //return new DefaultKafkaConsumerFactory<>(props, new StringDeserializer(), deserializer);
+      
         return new DefaultKafkaConsumerFactory<>(props, new StringDeserializer(),
                 new JsonDeserializer<>(Smartphone.class, false));
     }
