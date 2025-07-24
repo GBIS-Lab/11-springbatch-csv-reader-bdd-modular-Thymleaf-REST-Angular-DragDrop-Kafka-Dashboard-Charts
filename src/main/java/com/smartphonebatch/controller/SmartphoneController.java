@@ -3,7 +3,7 @@ package com.smartphonebatch.controller;
 import com.smartphonebatch.model.Smartphone;
 import com.smartphonebatch.repository.SmartphoneRepository;
 import com.smartphonebatch.service.SmartphoneConsumer;
-//import com.nemezyx.smartphonebatch.service.SmartphoneKafkaReader;
+//import com.smartphonebatch.service.SmartphoneKafkaReader;
 import com.smartphonebatch.service.SmartphoneProducer;
 import org.springframework.http.ResponseEntity;
 import org.springframework.ui.Model;
@@ -13,10 +13,9 @@ import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
-//@Controller1
 @RestController
 @RequestMapping("/api/smartphones")
-@CrossOrigin(origins = "*") // Pour autoriser Angular à appeler l’API
+@CrossOrigin(origins = "*") 
 public class SmartphoneController {
 
     private static final Logger log = LoggerFactory.getLogger(SmartphoneController.class);
@@ -43,7 +42,6 @@ public class SmartphoneController {
             return ResponseEntity.ok("⚠️ Aucun smartphone à publier.");
         }
 
-        //smartphones.forEach(smartphoneProducer::sendSmartphone);
         smartphones.forEach(s -> {
             log.info("📤 [PUBLISHER] Envoi du smartphone : {}", s);
             smartphoneProducer.sendSmartphone(s);
@@ -64,7 +62,7 @@ public class SmartphoneController {
         return smartphoneRepository.findAll();
     }
 
-    // ✅ Méthode pour l'accès par ID :
+    // Méthode pour l'accès par ID :
     @GetMapping("/{id}")
     public ResponseEntity<Smartphone> getSmartphoneById(@PathVariable Long id) {
         log.info("🔍 Récupération du smartphone avec l'ID : {}", id);
