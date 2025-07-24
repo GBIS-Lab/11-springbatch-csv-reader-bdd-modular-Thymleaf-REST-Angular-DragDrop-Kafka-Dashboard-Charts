@@ -17,7 +17,7 @@ public class KafkaReplayReader {
     public static void main(String[] args) {
         String topic = "smartphones-topic";
         String bootstrapServers = "localhost:9092";
-        String groupId = "replay-reader-group"; // Nouveau group ID pour éviter l’offset existant
+        String groupId = "replay-reader-group"; 
 
         Properties props = new Properties();
         props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);
