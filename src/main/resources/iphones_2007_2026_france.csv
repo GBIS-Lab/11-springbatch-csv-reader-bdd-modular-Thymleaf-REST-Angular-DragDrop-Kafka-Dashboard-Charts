@@ -1,0 +1,55 @@
+﻿marque;modele;os;annee;tailleEcran;prix;dateCommercialisation
+Apple;iPhone;iPhone OS 1.0;2007;3.5;399;2007-11-29
+Apple;iPhone 3G;iPhone OS 2.0;2008;3.5;149;2008-07-11
+Apple;iPhone 3GS;iPhone OS 3.0;2009;3.5;519;2009-06-19
+Apple;iPhone 4;iOS 4;2010;3.5;629;2010-06-24
+Apple;iPhone 4S;iOS 5;2011;3.5;629;2011-10-14
+Apple;iPhone 5;iOS 6;2012;4.0;679;2012-09-21
+Apple;iPhone 5c;iOS 7;2013;4.0;599;2013-09-20
+Apple;iPhone 5s;iOS 7;2013;4.0;699;2013-09-20
+Apple;iPhone 6;iOS 8;2014;4.7;709;2014-09-19
+Apple;iPhone 6 Plus;iOS 8;2014;5.5;809;2014-09-19
+Apple;iPhone 6s;iOS 9;2015;4.7;749;2015-09-25
+Apple;iPhone 6s Plus;iOS 9;2015;5.5;859;2015-09-25
+Apple;iPhone SE (1re génération);iOS 9.3;2016;4.0;489;2016-03-31
+Apple;iPhone 7;iOS 10;2016;4.7;769;2016-09-16
+Apple;iPhone 7 Plus;iOS 10;2016;5.5;909;2016-09-16
+Apple;iPhone 8;iOS 11;2017;4.7;809;2017-09-22
+Apple;iPhone 8 Plus;iOS 11;2017;5.5;919;2017-09-22
+Apple;iPhone X;iOS 11;2017;5.8;1159;2017-11-03
+Apple;iPhone XS;iOS 12;2018;5.8;1159;2018-09-21
+Apple;iPhone XS Max;iOS 12;2018;6.5;1259;2018-09-21
+Apple;iPhone XR;iOS 12;2018;6.1;859;2018-10-26
+Apple;iPhone 11;iOS 13;2019;6.1;809;2019-09-20
+Apple;iPhone 11 Pro;iOS 13;2019;5.8;1159;2019-09-20
+Apple;iPhone 11 Pro Max;iOS 13;2019;6.5;1259;2019-09-20
+Apple;iPhone SE (2e génération);iOS 13;2020;4.7;489;2020-04-24
+Apple;iPhone 12;iOS 14;2020;6.1;909;2020-10-23
+Apple;iPhone 12 Pro;iOS 14;2020;6.1;1159;2020-10-23
+Apple;iPhone 12 mini;iOS 14;2020;5.4;809;2020-11-13
+Apple;iPhone 12 Pro Max;iOS 14;2020;6.7;1259;2020-11-13
+Apple;iPhone 13 mini;iOS 15;2021;5.4;809;2021-09-24
+Apple;iPhone 13;iOS 15;2021;6.1;909;2021-09-24
+Apple;iPhone 13 Pro;iOS 15;2021;6.1;1159;2021-09-24
+Apple;iPhone 13 Pro Max;iOS 15;2021;6.7;1259;2021-09-24
+Apple;iPhone SE (3e génération);iOS 15;2022;4.7;529;2022-03-18
+Apple;iPhone 14;iOS 16;2022;6.1;1019;2022-09-16
+Apple;iPhone 14 Plus;iOS 16;2022;6.7;1169;2022-10-07
+Apple;iPhone 14 Pro;iOS 16;2022;6.1;1329;2022-09-16
+Apple;iPhone 14 Pro Max;iOS 16;2022;6.7;1479;2022-09-16
+Apple;iPhone 15;iOS 17;2023;6.1;969;2023-09-22
+Apple;iPhone 15 Plus;iOS 17;2023;6.7;1119;2023-09-22
+Apple;iPhone 15 Pro;iOS 17;2023;6.1;1229;2023-09-22
+Apple;iPhone 15 Pro Max;iOS 17;2023;6.7;1479;2023-09-22
+Apple;iPhone 16;iOS 18;2024;6.1;969;2024-09-20
+Apple;iPhone 16 Plus;iOS 18;2024;6.7;1119;2024-09-20
+Apple;iPhone 16 Pro;iOS 18;2024;6.3;1229;2024-09-20
+Apple;iPhone 16 Pro Max;iOS 18;2024;6.9;1479;2024-09-20
+Apple;iPhone 16e;iOS 18;2025;6.1;719;2025-02-28
+Apple;iPhone 17;iOS 26;2025;6.3;969;2025-09-19
+Apple;iPhone Air;iOS 26;2025;6.5;1229;2025-09-19
+Apple;iPhone 17 Pro;iOS 26;2025;6.3;1329;2025-09-19
+Apple;iPhone 17 Pro Max;iOS 26;2025;6.9;1479;2025-09-19
+Apple;iPhone 17e;iOS 26;2026;6.1;719;2026-03-11
+Apple;iPhone 18 Pro;iOS 27;2026;6.3;1479;2026-09-18
+Apple;iPhone 18 Pro Max;iOS 27;2026;6.9;1629;2026-09-18
